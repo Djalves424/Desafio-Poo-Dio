@@ -1,7 +1,5 @@
 package application;
 
-
-
 import dominio.Bootcamp;
 import dominio.Curso;
 import dominio.Dev;
@@ -43,12 +41,12 @@ public class Main {
         System.out.println("Conteúdos Inscritos Diego:" + devDiego.getConteudosInscritos());
         devDiego.progredir();
         devDiego.progredir();
-        System.out.println("-");
+        System.out.println("*-*");
         System.out.println("Conteúdos Inscritos Diego:" + devDiego.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Diego:" + devDiego.getConteudosConcluidos());
         System.out.println("XP:" + devDiego.calcularTotalXp());
 
-        System.out.println("-------");
+        System.out.println("*******************-----------------------------**********************");
 
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
@@ -57,7 +55,7 @@ public class Main {
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
-        System.out.println("-");
+        System.out.println("*-*");
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
